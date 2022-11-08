@@ -30,6 +30,11 @@ def main():
     people = helmetson['people']
     print(people)
 
+    # display every item in a list
+    for astro in helmetson["people"]:
+        # display ONLY the name value associated with astro
+        print(astro["name"] + " on the " + astro["craft"])
+
 if __name__ == "__main__":
     main()
 
